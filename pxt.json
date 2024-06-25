@@ -1,0 +1,32 @@
+{
+    "name": "Microbit thing",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Huskylens - Simple Object Tracking": "pub:22686-04650-54409-14846",
+        "datalogger": "*",
+        "pxt-meter": "github:grandpabond/pxt-meter#v0.1.20",
+        "IoT_Cloud_Kit": "github:dfrobot/pxt-dfrobot_iot_cloud_kit#v0.8.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py",
+        "Directions.py",
+        "Directions.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
